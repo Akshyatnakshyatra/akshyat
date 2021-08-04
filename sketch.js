@@ -1,33 +1,33 @@
 
 function setup() {
   createCanvas(400,400);
-  box=createSprite (100,150,10,10);
+  var sprite=createSprite(200,200,20,20);
 }
-var box;
+
+
+
 function draw() 
 {
-  background("black");
+  background("yellow");
 
 if (keyIsDown(RIGHT_ARROW))
 {
-  box.position.x=box.position.x+20;
+  background("red");
 }
 if (keyIsDown(LEFT_ARROW))
 {
-  box.position.x=box.position.x-20;
+  background("blue");
 }
 if (keyIsDown(UP_ARROW))
 {
-  box.position.y=box.position.y-20;
+  background("green");
 }
 if (keyIsDown(DOWN_ARROW))
 {
-  box.position.y=box.position.y+20;
+  background("pink");
 }
 drawSprites();
 }
-
-
 
 
 
