@@ -9,7 +9,8 @@ function preload(){
 function setup()
 {
   createCanvas(600,600);
- // creating sea 
+ 
+  // creating sea 
   sea=createSprite(10,10);
   sea.addImage("seaimage",seaimg1);
 
@@ -22,8 +23,6 @@ function setup()
   
   //adding scale and position to ship
   ship.scale = 0.3;
-  
-
   
 }
 
